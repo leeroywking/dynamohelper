@@ -1,6 +1,6 @@
 while read file
 do
-echo "removing null bytes from  $file"
-tr < /paste/$file -d '\000' > /paste/cleaned/$file
+echo "removing rando bytes from  $file"
+tr -cd '\11\13\14\15\40-\176'< /paste/$file > /paste/cleaned/$file
 echo "done removing null bystes from $file"
-done < list.txt                                                
+done < list.txt                                               
