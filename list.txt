@@ -1,3 +1,4 @@
+goof.txt
 1.txt
 20.txt
 21.txt
