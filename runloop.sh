@@ -2,5 +2,5 @@
 
 while read file 
 do
-bash loop.sh "$file"
+bash loop.sh /paste/"$file"
 done < list.txt

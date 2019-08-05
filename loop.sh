@@ -12,6 +12,8 @@ do
 	echo "'$f'"
 		aws dynamodb put-item \
 		--table-name usepa \
-		--item \'$f\'
+		--item \'$f\' &
+
+		echo "added in $b:$d"
 done < $1
 
