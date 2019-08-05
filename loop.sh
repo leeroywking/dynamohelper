@@ -9,8 +9,9 @@ do
 	d=${array[1]}
 	e='"}}'
 	f="$a$b$c$d$e"
+	echo "'$f'"
 		aws dynamodb put-item \
 		--table-name usepa \
-		--item "$f"
+		--item \'$f\'
 done < $1
 
