@@ -12,5 +12,5 @@ do
 		aws dynamodb put-item \
 		--table-name usepa \
 		--item $f
-done < ./*.txt
+done < $1
 
