@@ -5,6 +5,6 @@ tr '\r' '\n' < /paste/$file > /paste/cleaned/$file
 tr -cd '[:alnun:\n\:]'< /paste/cleaned/$file > /paste/cleaned/cleaner/$file
 echo "done removing null bystes from $file"
 echo "validating with dos2unix"
-dos2unix /paste/cleaned/$file
+dos2unix /paste/cleaned/cleaner/$file
 echo "done validating"
 done < list.txt                                               
