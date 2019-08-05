@@ -1,15 +1,18 @@
 #!/bin/bash
 
-for I in `cat /paste/*.txt` do
-
-aws dynamodb put-item \
-	--table-name usepa \
-	--item '{
-	"user": {
-	"S": "$1"
-},
-"pass": {
-"S": "$2"
-}
-}'
+while read line
+do
+	IFS=':' read -ra array <<< "$line";
+		aws dynamodb put-item \
+		--table-name usepa \
+		--item '{
+			"user": {
+			"S": "`echo ${array[0]}`"
+			},
+			"pass": {
+			"S": "`echo ${array[1]}`"
+			}
+		}'
+	# `echo ${array[0]}`
+done < ./*.txt
 
