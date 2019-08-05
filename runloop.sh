@@ -9,4 +9,4 @@ bash loop.sh $file $file
 sed '$ s/,$//g' $file.json > $file.next.json
 echo ']}' >> $file.next.json
 aws dynamodb batch-write-item --request-items file://$file.next.json
-done < list.txt
+done < $1
