@@ -1,0 +1,18 @@
+{"usepa": [
+{"PutRequest": {"Item": {"user": {"S": "manishforu77@yahoo.com"},"pass": {"S": "abc1234"}}}},
+{"PutRequest": {"Item": {"user": {"S": "emek-29@hotmail.com"},"pass": {"S": "05352392062"}}}},
+{"PutRequest": {"Item": {"user": {"S": "manishjat@hotmail.com"},"pass": {"S": "smoking"}}}},
+{"PutRequest": {"Item": {"user": {"S": "klgoodman1@yahoo.com"},"pass": {"S": "people1"}}}},
+{"PutRequest": {"Item": {"user": {"S": "manishmana2000@yahoo.co.uk"},"pass": {"S": "northern2003"}}}},
+{"PutRequest": {"Item": {"user": {"S": "hurrikane88@hotmail.it"},"pass": {"S": "patri"}}}},
+{"PutRequest": {"Item": {"user": {"S": "manishseth86@india.com"},"pass": {"S": "manish"}}}},
+{"PutRequest": {"Item": {"user": {"S": "j69@yahoo.com"},"pass": {"S": "123456"}}}},
+{"PutRequest": {"Item": {"user": {"S": "batiu_batiu@hotmail.com"},"pass": {"S": "antiloplar12"}}}},
+{"PutRequest": {"Item": {"user": {"S": "j6b9k@yahoo.com"},"pass": {"S": "killer"}}}},
+{"PutRequest": {"Item": {"user": {"S": "nivia.tina@hotmail.com"},"pass": {"S": "102166"}}}},
+{"PutRequest": {"Item": {"user": {"S": "j6j@usa.net"},"pass": {"S": "surfing"}}}},
+{"PutRequest": {"Item": {"user": {"S": "mtrx.brk@hotmail.com"},"pass": {"S": "123456"}}}},
+{"PutRequest": {"Item": {"user": {"S": "j7181@hotmail.com"},"pass": {"S": "friendster"}}}},
+{"PutRequest": {"Item": {"user": {"S": "axlwrsoe@email.com"},"pass": {"S": "axlrose1962"}}}},
+{"PutRequest": {"Item": {"user": {"S": "j725m7@yahoo.com"},"pass": {"S": "merlinsales"}}}}
+]}
