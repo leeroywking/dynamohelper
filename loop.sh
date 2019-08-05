@@ -11,6 +11,6 @@ do
 	f="$a$b$c$d$e"
 		aws dynamodb put-item \
 		--table-name usepa \
-		--item "$f"
+		--item $f
 done < ./*.txt
 
