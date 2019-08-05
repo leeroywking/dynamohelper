@@ -3,16 +3,14 @@
 while read line
 do
 	IFS=':' read -ra array <<< "$line";
+	a='{"user": {"S": "'
+	b=${array[0]}
+	c='"},"pass": {"S": "'
+	d=${array[1]}
+	e='"}}'
+	f="$a$b$c$d$e"
 		aws dynamodb put-item \
 		--table-name usepa \
-		--item '{
-			"user": {
-			"S": "`echo ${array[0]}`"
-			},
-			"pass": {
-			"S": "`echo ${array[1]}`"
-			}
-		}'
-	# `echo ${array[0]}`
+		--item "$f"
 done < ./*.txt
 
